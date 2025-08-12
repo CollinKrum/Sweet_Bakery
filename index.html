@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Crumbs Bakery</title>
+  <!-- Tailwind CSS CDN for modern styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom font for a more modern feel */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-amber-50 text-gray-800">
+
+  <!-- Header Section with a subtle shadow and rounded corners -->
+  <header class="bg-red-200 text-gray-800 py-6 text-center shadow-lg">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-bold mb-2">Sweet Crumbs Bakery</h1>
+      <nav class="flex justify-center space-x-6 mt-4">
+        <a href="#about" class="text-lg font-semibold hover:text-red-600 transition-colors duration-300">About</a>
+        <a href="#menu" class="text-lg font-semibold hover:text-red-600 transition-colors duration-300">Menu</a>
+        <a href="#contact" class="text-lg font-semibold hover:text-red-600 transition-colors duration-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container mx-auto p-8">
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-white p-8 rounded-lg shadow-xl mb-12">
+      <h2 class="text-3xl font-bold text-red-500 mb-4 text-center">About Us</h2>
+      <p class="text-lg text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+        At Sweet Crumbs Bakery, we bake with love. Every loaf, pastry, and cake is made fresh daily
+        with locally-sourced ingredients. We believe in the simple joy of a perfect crumb.
+      </p>
+      <div class="mt-8 flex justify-center">
+        <img src="https://source.unsplash.com/900x400/?bakery,bread" alt="A selection of fresh baked goods" class="rounded-xl shadow-md border-4 border-white">
+      </div>
+    </section>
+
+    <!-- Our Menu Section -->
+    <section id="menu" class="bg-white p-8 rounded-lg shadow-xl mb-12">
+      <h2 class="text-3xl font-bold text-red-500 mb-6 text-center">Our Menu</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center max-w-4xl mx-auto">
+        <li class="p-6 bg-red-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-xl font-bold text-gray-900">Sourdough Bread</h3>
+          <p class="text-2xl text-red-500 font-extrabold mt-2">$4</p>
+        </li>
+        <li class="p-6 bg-red-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-xl font-bold text-gray-900">Chocolate Croissant</h3>
+          <p class="text-2xl text-red-500 font-extrabold mt-2">$3</p>
+        </li>
+        <li class="p-6 bg-red-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-xl font-bold text-gray-900">Blueberry Muffin</h3>
+          <p class="text-2xl text-red-500 font-extrabold mt-2">$2</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="bg-white p-8 rounded-lg shadow-xl">
+      <h2 class="text-3xl font-bold text-red-500 mb-6 text-center">Contact Us</h2>
+      <div class="text-center text-lg text-gray-700 space-y-2">
+        <p>Email: <a href="mailto:hello@sweetcrumbs.com" class="text-red-500 hover:underline">hello@sweetcrumbs.com</a></p>
+        <p>Phone: (555) 123-4567</p>
+      </div>
+    </section>
+  
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-12">
+    <p class="text-sm">&copy; 2025 Sweet Crumbs Bakery. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
